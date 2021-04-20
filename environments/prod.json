@@ -1,0 +1,17 @@
+{
+   "name":"Producation",
+   "description": "",
+   "cookbook_versions": {
+           "apachecookbook": "= 0.1.0"
+   },
+   "json_class": "Chef::Environment",
+   "chef_type": "environment",
+   "default_attributes": {
+   },
+   "override_attributes": {
+           "apachecookbook": {
+                "env": "Producation",
+                "name": "Vimalesh"
+           }
+   }
+}
