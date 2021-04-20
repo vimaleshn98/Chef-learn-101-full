@@ -1,0 +1,16 @@
+{
+    "name": "chef-producation",
+    "description": "",
+    "cookbook_versions": {
+            "chef-learn-101": "= 0.1.0"
+    },
+    "json_class": "Chef::Environment",
+    "chef_type": "environment",
+    "default_attributes": {
+    },
+    "override_attributes": {
+            "chef-learn-101": {
+                 "env": "Production"
+            }
+    }
+ }
